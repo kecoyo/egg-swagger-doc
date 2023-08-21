@@ -1,4 +1,4 @@
-# egg-swagger-doc
+# @kecoyo/egg-swagger-doc
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-swagger-doc.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-swagger-doc
-[travis-image]: https://img.shields.io/travis/eggjs/egg-swagger-doc.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-swagger-doc
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-swagger-doc.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-swagger-doc?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-swagger-doc.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-swagger-doc
-[snyk-image]: https://snyk.io/test/npm/egg-swagger-doc/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-swagger-doc
-[download-image]: https://img.shields.io/npm/dm/egg-swagger-doc.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-swagger-doc
+[npm-image]: https://img.shields.io/npm/v/@kecoyo/egg-swagger-doc.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@kecoyo/egg-swagger-doc
+[travis-image]: https://img.shields.io/travis/@kecoyo/egg-swagger-doc.svg?style=flat-square
+[travis-url]: https://travis-ci.org/@kecoyo/egg-swagger-doc
+[codecov-image]: https://img.shields.io/codecov/c/github/@kecoyo/egg-swagger-doc.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/@kecoyo/egg-swagger-doc?branch=master
+[david-image]: https://img.shields.io/david/@kecoyo/egg-swagger-doc.svg?style=flat-square
+[david-url]: https://david-dm.org/@kecoyo/egg-swagger-doc
+[snyk-image]: https://snyk.io/test/npm/@kecoyo/egg-swagger-doc/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@kecoyo/egg-swagger-doc
+[download-image]: https://img.shields.io/npm/dm/@kecoyo/egg-swagger-doc.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@kecoyo/egg-swagger-doc
 
 这是一个关于swagger的测试版本
 
@@ -26,7 +26,7 @@
 
 ### 依赖的 egg 版本
 
-egg-swagger-doc 版本 | egg 1.x
+@kecoyo/egg-swagger-doc 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -47,7 +47,7 @@ egg-swagger-doc 版本 | egg 1.x
 // config/plugin.js
 exports.swaggerdoc = {
   enable: true,
-  package: 'egg-swagger-doc',
+  package: '@kecoyo/egg-swagger-doc',
 };
 ```
 

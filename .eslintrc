@@ -2,6 +2,11 @@
   "extends": "eslint-config-egg",
   "rules": {
     "prefer-const": 0,
+    "semi": 0,
+    "quotes": 0,
+    "keyword-spacing": 0,
+    "space-infix-ops": 0,
+    "space-before-blocks": 0,
     "array-bracket-spacing": 0,
     "dot-notation": "off",
     "valid-jsdoc":"off"
