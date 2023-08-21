@@ -17,7 +17,7 @@
  */
 exports.swaggerdoc = {
   dirScanner: './app/controller',
-  basePath: '/',
+  basePath: '',
   apiInfo: {
     title: 'egg-swagger',
     description: 'swagger-ui for egg js api',
@@ -43,7 +43,6 @@ exports.swaggerdoc = {
     // },
   },
   enableSecurity: false,
-  // enableValidate: true,
   routerMap: false,
   enable: true,
 };

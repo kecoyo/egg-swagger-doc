@@ -61,7 +61,6 @@ exports.swaggerdoc = {
     // },
   },
   enableSecurity: false,
-  // enableValidate: true,
   routerMap: false,
   enable: true,
 };
